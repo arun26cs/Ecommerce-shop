@@ -1,0 +1,109 @@
+.header {
+    height: 40vh;
+    background-image: url("/img/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: 'Lexend Zetta', sans-serif;
+    background-color: #212529;
+}
+
+.header p {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.form-body {
+    height: 40vh;
+    margin-top: 100px;
+}
+
+.form-group h2 {
+    text-align: center;
+}
+
+.col-md-8 {
+    padding: 30px;
+}
+
+.form-body .col-md-8 {
+    background-image: url("/img/bacjground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-body nav {
+    width: 100%;
+}
+
+.section-head {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.section-head {
+    text-align: center;
+    color: white;
+}
+
+.list-body {
+    height: 125px;
+}
+
+.card {
+    height: 100%;
+}
+
+.bottom {
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.bottom a.card-link {
+    margin: 5px;
+    padding: 0;
+    color: #212529;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    position: relative;
+    border: 1px #9a9da0;
+    overflow: hidden;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.table-body {
+    margin-top: 30px;
+}
+
+.contact-body .col-md-8 {
+    background-image: url("/img/bacjground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-body {
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.profile-body {
+    height: 200px;
+    margin-bottom: 50px;
+}
