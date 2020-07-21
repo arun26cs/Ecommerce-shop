@@ -50,17 +50,12 @@ body {
     color: white;
 }
 
-.list-body {
-    height: 125px;
-}
-
 .card {
     height: 100%;
 }
 
 .bottom {
     padding: 5px;
-    position: absolute;
     bottom: 20px;
 }
 
@@ -77,7 +72,6 @@ body {
 }
 
 .card {
-    position: relative;
     border: 1px #9a9da0;
     overflow: hidden;
 }
@@ -85,7 +79,6 @@ body {
 .card-body {
     height: 100%;
     width: 100%;
-    position: absolute;
 }
 
 .table-body {
@@ -99,11 +92,19 @@ body {
 }
 
 .contact-body {
-    height: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .profile-body {
     height: 200px;
     margin-bottom: 50px;
+}
+
+#orders .form-inline {
+    justify-content: center;
+}
+
+#orderdetails .form-inline {
+    justify-content: center;
 }
