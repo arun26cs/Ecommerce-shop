@@ -36,6 +36,21 @@ body {
     background-repeat: no-repeat;
 }
 
+.register-body {
+    margin-top: 50px;
+}
+
+.register-body .col-md-8 {
+    background-image: url("/img/bacjground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register-body input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .nav-body nav {
     width: 100%;
 }
@@ -107,4 +122,13 @@ body {
 
 #orderdetails .form-inline {
     justify-content: center;
+}
+
+.success {
+    background-color: azure;
+    font-family: cursive;
+    transition: 1s ease-in;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
 }
